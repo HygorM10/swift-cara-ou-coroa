@@ -16,7 +16,7 @@ class ResultadoViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        if numeroRandomico == 0 {//cara
+        if numeroRandomico == 0 {
             
             moedaImagem.image = UIImage(named: "moeda_cara")
             
